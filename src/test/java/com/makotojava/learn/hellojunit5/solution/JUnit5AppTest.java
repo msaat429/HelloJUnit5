@@ -32,6 +32,8 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,7 +42,7 @@ import org.slf4j.LoggerFactory;
  *
  */
 @Disabled
-
+@RunWith(JUnitPlatform.class)
 @DisplayName("Testing using JUnit 5")
 public class JUnit5AppTest {
 
